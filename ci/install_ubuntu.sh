@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 set -eux
-
 : "${OBS_INCLUDE_DIR:=/usr/include/obs}"
 : "${OBS_API_SRC_URL:=https://raw.githubusercontent.com/obsproject/obs-studio/#OBS_VER#/UI/obs-frontend-api/obs-frontend-api.h}"
 
